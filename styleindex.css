@@ -212,3 +212,12 @@ main {
 .solar #solarIcon {
 	display: block;
 }
+
+/*remove barre verticale*/
+body {
+	overflow-y: hidden;
+}
+
+body {
+	overflow: hidden;
+}
