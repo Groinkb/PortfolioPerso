@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="styleprojets.css">
+	<title>Mon Portfolio</title>
+</head>
+
+<body>
+	<header>
+		<h1>Mes projets</h1>
+	</header>
+
+	<main id="projects">
+		<!-- Ici s'afficheront vos projets -->
+	</main>
+
+	<button id="addProjectButton">Ajouter un projet</button>
+
+	<div id="projectModal" class="modal">
+		<div class="modal-content">
+			<span class="close-button">&times;</span>
+			<h2>Ajouter un nouveau projet</h2>
+			<form id="projectForm">
+				<label for="projectName">Nom du projet:</label>
+				<input type="text" id="projectName" name="projectName" required>
+
+				<label for="projectDescription">Description:</label>
+				<textarea id="projectDescription" name="projectDescription" required></textarea>
+
+				<label for="projectImage">URL de l'image miniature:</label>
+				<input type="url" id="projectImage" name="projectImage" required>
+
+				<button type="submit">Ajouter</button>
+			</form>
+		</div>
+	</div>
+
+	<script src="projets.js></script>
+</body>
+
+</html>
