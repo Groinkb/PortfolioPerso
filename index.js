@@ -1,3 +1,4 @@
+// For the menu commun at every pages
 document.addEventListener("DOMContentLoaded", function () {
 	const dropdownBtn = document.querySelector(".dropdown-btn");
 	const dropdownContent = document.querySelector(".dropdown-content");
@@ -14,3 +15,7 @@ document.addEventListener("DOMContentLoaded", function () {
 		}
 	});
 });
+
+
+
+// Preload rocket
